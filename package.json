@@ -1,6 +1,6 @@
 {
   "name": "notion-backups",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "description": "Blazingly fast asynchronous, multi-user, multi-space Notion backups",
   "main": "source/notion-backups.js",
   "keywords": [
@@ -14,8 +14,6 @@
     "html",
     "async"
   ],
-
-
   "bin": {
     "notion-backups": "source/notion-backups.js"
   },
@@ -25,7 +23,6 @@
   "files": [
     "source"
   ],
-
   "repository": {
     "type": "git",
     "url": "https://github.com/methylDragon/notion-backups.git"
@@ -42,7 +39,6 @@
     "url": "https://github.com/methylDragon/notion-backups/issues"
   },
   "homepage": "https://github.com/methylDragon/notion-backups",
-
   "devDependencies": {
     "eslint-config-robin": "^6.1.3"
   },
