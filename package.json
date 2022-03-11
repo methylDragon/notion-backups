@@ -1,0 +1,57 @@
+{
+  "name": "notion-backups",
+  "version": "1.0.0-rc.1",
+  "description": "Blazingly fast asynchronous, multi-user, multi-space Notion backups",
+  "main": "source/notion-backups.js",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "ghactions",
+    "notion",
+    "backup",
+    "github",
+    "markdown",
+    "html",
+    "async"
+  ],
+
+
+  "bin": {
+    "notion-backups": "source/notion-backups.js"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "files": [
+    "source"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/methylDragon/notion-backups.git"
+  },
+  "eslintConfig": {
+    "extends": "robin"
+  },
+  "author": "methylDragon <methylDragon@gmail.com>",
+  "contributors": [
+    "Robin Berjon <robin@berjon.com> (https://github.com/darobin/notion-backup)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/methylDragon/notion-backups/issues"
+  },
+  "homepage": "https://github.com/methylDragon/notion-backups",
+
+  "devDependencies": {
+    "eslint-config-robin": "^6.1.3"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "commander": "^7.2.0",
+    "extract-zip": "^2.0.1",
+    "notion-client": "^4.5.2",
+    "notion-utils": "^4.5.2"
+  }
+}
