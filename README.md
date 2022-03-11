@@ -1,5 +1,8 @@
-
 # notion-backups
+
+[![npm version](https://badge.fury.io/js/notion-backups.svg)](https://badge.fury.io/js/notion-backups) [![GitHub version](https://badge.fury.io/gh/methyldragon%2Fnotion-backups.svg)](https://badge.fury.io/gh/methyldragon%2Fnotion-backups)
+
+
 
 ## Description
 
