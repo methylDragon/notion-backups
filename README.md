@@ -247,6 +247,7 @@ jobs:
           NOTION_SPACE_IDS: ${{ secrets.NOTION_SPACE_IDS }}
           NOTION_USER_IDS: ${{ secrets.NOTION_USER_IDS }}
           EXPORT_TYPE: ${{ secrets.EXPORT_TYPE }}
+          NODE_OPTIONS: '--max-http-header-size=80000'
 
       - name: Delete zips
         run: "find . -type f -name '*.zip' -exec echo 'Cleaning up: {}' \\; -exec rm {} +"
